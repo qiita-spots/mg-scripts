@@ -1,9 +1,16 @@
-# Sequence Processing Pipeline
+# **IMPORTANT** 
+
+**This reposotory was merged wit [qiita-spots/qp-knight-lab-processing](https://github.com/qiita-spots/qp-knight-lab-processing) on April 21st, 2025.**
+
+**All new development should be done there.**
+
+
+## Sequence Processing Pipeline
 
 A Jupyter notebook to assist wet lab shotgun pipeline.
 A packaged Python-based implementation of Knight Lab's sequencing process pipeline.
 
-## Installation
+### Installation
 
 To install this package, first clone this repository from GitHub:
 
@@ -32,7 +39,7 @@ pip install -e .
 
 This will automatically install https://github.com/biocore/metagenomics_pooling_notebook.git, a dependency of mg-scripts and the sequence_processing_pipeline.
 
-## Running Unittests
+### Running Unittests
 
 Change directory to the downloaded repository folder:
 
@@ -41,7 +48,7 @@ cd mg-scripts
 nosetests --with-coverage --cover-inclusive --cover-package sequence_processing_pipeline
 ```
 
-## Getting Started
+### Getting Started
 
 Review Pipeline.py and main.py to learn how to import and access package functionality:
 
